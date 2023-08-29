@@ -32,7 +32,7 @@ const ChatScreen = ({ navigation, route }) => {
         <View style={{ flexDirection: "row", alignItems: "center" }}>
           <Avatar
             rounded
-            source={{ uri: "https://source.unsplash.com/400x400?portrait" }}
+            source={{ uri: messages[0].data.photoURL }}
           />
           <Text style={{ color: "white", marginLeft: 10, fontWeight: "700" }}>
             {route.params.chatName}
@@ -126,7 +126,7 @@ const ChatScreen = ({ navigation, route }) => {
                     <Text style={styles.receiverText}>{data.message}</Text>
                   </View>
                 ) : (
-                  <View style={styles.sender}>
+                  <View key={id} style={styles.sender}>
                     <Avatar
                       rounded
                       size={30}
