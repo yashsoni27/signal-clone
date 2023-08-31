@@ -1,5 +1,5 @@
 # signal-clone 
-practise by watching Sonny Sangha channel youtube. https://www.youtube.com/watch?v=MJzmZ9qmdaE
+Practised by watching Sonny Sangha channel youtube. https://www.youtube.com/watch?v=MJzmZ9qmdaE
 
 ## Installation
 
